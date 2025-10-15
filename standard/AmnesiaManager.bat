@@ -148,4 +148,5 @@ if errorlevel == 1 (set "installlocate=B" && goto :installamnesia)
 
 :deleteautorun
 if exist "%installpath%Amnesia.bat" (del /s /q "%installpath%Amnesia.bat")
+
 goto :setstartup
